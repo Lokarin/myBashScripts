@@ -1,3 +1,3 @@
 #!/bin/bash
 
-youtube-dl --extract-audio --audio-format mp3 $1
+youtube-dl --extract-audio --add-metadata --audio-format mp3 $1
