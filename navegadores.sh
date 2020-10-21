@@ -10,4 +10,5 @@ case $nav in
 	Qutebrowser) qutebrowser;;
 	Firefox) firefox;;
 	Brave) brave;;
+	Vimb) vimb;;
 esac
