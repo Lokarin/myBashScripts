@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-cmus | lolcat -F 0.1
+cmus | lolcat -F 0.03
