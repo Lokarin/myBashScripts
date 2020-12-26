@@ -11,5 +11,5 @@ case $nav in
 	Firefox) firefox;;
 	Brave) brave;;
 	Vimb) vimb;;
-	Tor) torbrowser-launcher;;
+	Tor) tor-browser;;
 esac
