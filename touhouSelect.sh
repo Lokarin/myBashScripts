@@ -13,4 +13,3 @@ case $th in
 	"14.3 - Impossible Spell Card") (cd ~/Documentos/Touhou/Touhou\ 14.3\ ~\ Impossible\ Spell\ Card/Impossible\ spell\ card/th143 && wine th143.exe) ;;
 	"16 - Hidden Star in 4 Seasons") (cd ~/Documentos/Touhou/2hu16\ -\ Hidden\ Star\ in\ 4\ Seasons && wine th16thpatchen.exe) ;;
 esac
-

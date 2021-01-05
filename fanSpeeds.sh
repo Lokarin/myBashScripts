@@ -6,4 +6,3 @@ case $BLOCK_BUTTON in
 esac
 
 sensors | awk '/^fan/ {printf("%s",$2)}'
-

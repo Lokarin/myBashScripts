@@ -18,7 +18,3 @@ else
 
 	nvim "$script_name.sh"
 fi
-
-
-
-
