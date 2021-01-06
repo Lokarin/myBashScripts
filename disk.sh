@@ -40,4 +40,5 @@ END {
 		# color
 		print "#FF0000"
 	}
+}
 '
