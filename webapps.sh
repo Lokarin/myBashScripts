@@ -7,8 +7,8 @@ app=$(echo -e "ProtonMail\nGitHub\nYouTube\nStartPage\nReddit" | dmenu -i -c -l 
 
 case $app in
         ProtonMail) firefox -ssb https://mail.protonmail.com/inbox;;
-        GitHub) firefox -ssb https://https://www.github.com;;
-        YouTube) firefox -ssb https://https://www.youtube.com;;
-        StartPage) firefox -ssb https://https://www.startpage.com;;
+        GitHub) firefox -ssb https://github.com;;
+        YouTube) firefox -ssb https://youtube.com;;
+        StartPage) firefox -ssb https://startpage.com;;
         Reddit) firefox -ssb https://www.reddit.com;;
 esac
