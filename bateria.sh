@@ -1,7 +1,7 @@
 #!/usr/bin/bash 
-VAR1="$(cat /sys/class/power_supply/BAT1/status)"
+VAR1="$(cat /sys/class/power_supply/BAT0/status)"
 VAR2="Discharging"
-VAR3=$(cat /sys/class/power_supply/BAT1/capacity)
+VAR3=$(cat /sys/class/power_supply/BAT0/capacity)
 VAR4=25
 
 if [[ "$VAR1" = "$VAR2" && "$VAR3" -gt "$VAR4" ]]; then
@@ -9,7 +9,7 @@ if [[ "$VAR1" = "$VAR2" && "$VAR3" -gt "$VAR4" ]]; then
 
 elif [[ "$VAR1" = "$VAR2" && "$VAR3" -le "$VAR4" ]]; then
 	echo $VAR3"% [BATERIA FRACA!]"
-	play ~/Música/Aleatoriedades/notification.mp3
+	play ~/Música/Sounds/alert.wav
 
 elif [[ "$VAR1" != "$VAR2" && "$VAR3" -gt "$VAR4" ]]; then
 	echo $VAR3"% [c]"

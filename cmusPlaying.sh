@@ -36,6 +36,6 @@ fi
 
 # Echo the crap of out it
 if [ -n "$output" ]; then
-  echo " ${output} [${vol}%]"
+  echo " ${output} [${vol}%]"
 fi
 

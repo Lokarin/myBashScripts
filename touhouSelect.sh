@@ -3,7 +3,7 @@
 # Import the colors
 . "${HOME}/.cache/wal/colors.sh"
 
-th=$(echo -e "7 - Perfect Cherry Blossom\n9 - Phantasmagoria of Flower View\n10 - Mountain of Faith\n11 - Subterranean Animism\n14.3 - Impossible Spell Card\n16 - Hidden Star in 4 Seasons" | dmenu -i -c -l 25 -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"  -p "Jogar Touhou...")
+th=$(echo -e "7 - Perfect Cherry Blossom\n9 - Phantasmagoria of Flower View\n10 - Mountain of Faith\n11 - Subterranean Animism\n14.3 - Impossible Spell Card\n16 - Hidden Star in 4 Seasons" | dmenu -i -fn monospace -dim 0.1 -o 0.85 -x 710 -y 440 -w 500 -l 20 -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"  -p "Jogar Touhou...")
 
 case $th in
 	"7 - Perfect Cherry Blossom") (cd ~/Documentos/Touhou/Touhou\ 7\ –\ Perfect\ Cherry\ Blossom\ \(English\ Patched\) && wine th07e.exe) ;;
