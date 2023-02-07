@@ -3,7 +3,7 @@
 # Import the colors
 . "${HOME}/.cache/wal/colors.sh"
 
-nav=$(echo -e "Brave\nFirefox\nCliqz\nQutebrowser\nVimb\nTor\nLibreWolf" | dmenu -i -c -l 25 -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"  -p "Abrir Navegador...")
+nav=$(echo -e "Brave\nFirefox\nCliqz\nQutebrowser\nVimb\nTor\nLibreWolf" | dmenu -i -w 500 -fn Monospace-11:normal -x 700 -y 450 -o 0.85 -l 25 -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -dim 0.5 -p "Navegador...") 
 
 case $nav in
 	Cliqz) cliqz ;;

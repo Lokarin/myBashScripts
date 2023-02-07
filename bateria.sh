@@ -2,7 +2,7 @@
 VAR1="$(cat /sys/class/power_supply/BAT0/status)"
 VAR2="Discharging"
 VAR3=$(cat /sys/class/power_supply/BAT0/capacity)
-VAR4=25
+VAR4=15
 
 if [[ "$VAR1" = "$VAR2" && "$VAR3" -gt "$VAR4" ]]; then
 	echo $VAR3"% [d]"
