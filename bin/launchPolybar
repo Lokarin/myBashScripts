@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+cd /home/lokarin/.config/polybar
+./launch.sh
+
